@@ -1,4 +1,4 @@
-# coursera IBM datascience specialization
+# IBM datascience specialization capstone project - Segmenting Montreal neighborhoods to find the best fit to open a fashion boutique
 
 
 The business goal of this project is to determine the best area in Montreal where to open a new fashion boutique depending on the existing venues in each area and socio economic data of their population. Any person looking to open a new fashion shop in Montreal could be interested.
