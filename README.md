@@ -6,10 +6,10 @@ The business goal of this project is to determine the best area in Montreal wher
 The analytic question to be answered is, can we effectively cluster neighborhoods within montreal based on the main venues of each neighborhood, and census data on revenues per neighborhood ?
 
 Methodology
-* Data description :
-++Socio economic data to determine if the surrounding population woud be a good target for the boutique sales (http://www1.journaldemontreal.com/2017/09/salaires/), found on journal de Montreal, giving access to Statistics Canada data I did not find directly there.
-++Google Geocoding data from the google geocoding API to get each neighborhood's coordinates to then feed the foursquare API
-++The geographical data from foursquare to learn about each neighborhood in Montreal, to determine already saturated areas where the competition would be high and the desert ones where it may be better to settle in or to avoid if it's really too desert i don't know yet
+  * Data description :
+    +Socio economic data to determine if the surrounding population woud be a good target for the boutique sales (http://www1.journaldemontreal.com/2017/09/salaires/), found on journal de Montreal, giving access to Statistics Canada data I did not find directly there.
+    +Google Geocoding data from the google geocoding API to get each neighborhood's coordinates to then feed the foursquare API
+    +The geographical data from foursquare to learn about each neighborhood in Montreal, to determine already saturated areas where the competition would be high and the desert ones where it may be better to settle in or to avoid if it's really too desert i don't know yet
 +Data collection and cleaning:
 ++I first cleaned the revenue data, leaving neighborhoods outside of the island of Montreal out
 ++I used a google API to collect coordinates of each neighborhood listed in the revenue data on the island of Montreal
